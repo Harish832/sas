@@ -98,7 +98,7 @@
 }
 .main .secContent .singleDestination .cardInfo .fees .grade {
   color: var(--textColor);
-  max-width: 100px;
+  max-width: 200px;
   line-height: 20px;
   display: flex;
   align-items: center;
@@ -120,6 +120,7 @@
   font-size: 13.5px;
   color: var(--textColor);
   font-weight: 500;
+  height: 50px;
 }
 .main .secContent .singleDestination .cardInfo .btn {
   margin-top: 1rem;

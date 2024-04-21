@@ -14,52 +14,32 @@ import 'aos/dist/aos.css'
 const Home = () => {
   useEffect(()=>{Aos.init({duration:2000})},[])
   return (
-    <section className="home">
+    <section className="home" id="home">
       <div className="overlay"></div>
       <video src={video} muted autoPlay loop type="home/mp4"></video>
 
       <div className="homecontent container">
         <div className="textDiv">
-          <span data-aos="fade-up" className="smallText">Our packages</span>
-          <h1  data-aos="fade-up" className="homeTitle">Search Your Holiday</h1>
+          <span data-aos="fade-up" className="smallText">INCREDIBLE !NDIA</span>
+          <h1  data-aos="fade-up" className="homeTitle">EXPLORE DESTINATIONS</h1>
         </div>
-        <div data-aos="fade-up" className="cardDiv grid">
-          <div className="destinationInput">
-            <label htmlFor="city">Search your Destination:</label>
-            <div className="input flex">
-              <input type="text" placeholder="Enter City Here" />
-              <GrLocation className="icon" />
+        <div data-aos="fade-up" className="cardDiv flex">
+          <h1 data-aos="fade-up" className="homeTitle black">WE UNDERTAKE</h1>
+          <div className="flex flex_row">
+            <div>
+              <span data-aos="fade-up" className="smallText black">-Family Tours</span><br></br>
+              <span data-aos="fade-up" className="smallText black">-Industrial Visit</span><br></br>
+              <span data-aos="fade-up" className="smallText black">-Pilgrimage Tours</span>
             </div>
-          </div>
-          <div className="dateInput">
-            <label htmlFor="date">Select Your Date:</label>
-            <div className="input flex">
-              <input type="date" />
+            <div>
+              <span data-aos="fade-up" className="smallText black">-Educational Package Tours</span><br></br>
+              <span data-aos="fade-up" className="smallText black">-Corporate Incentive Tours</span><br></br>
             </div>
-          </div>
-          <div className="priceInput">
-            <div className="label_total flex">
-              <label htmlFor="price">MaxPrice:</label>
-              <h3 className="total">$5000</h3>
+            <div>
+              <span data-aos="fade-up" className="smallText black">-Eco Tourism</span><br></br>
+              <span data-aos="fade-up" className="smallText black">-Escorted Tours</span><br></br>
+              <span data-aos="fade-up" className="smallText black">-All India Tours</span>
             </div>
-            <div className="input flex">
-              <input type="range" max="5000" min="1000" />
-            </div>
-          </div>
-          <div className="searchOptions flex">
-            <HiFilter  className="icon "/>
-            <span>MORE FILTERS</span>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="homeFooterIcons flex">
-          <div className="rightIcons">
-            <TfiFacebook className="icon" />
-            <FaInstagramSquare className="icon" />
-            <GiTripleScratches className="icon"/>
-          </div>
-          <div className="leftIcons">
-            <FaList className="icon" />
-            <TbApple  className="icon"/>
           </div>
         </div>
       </div>

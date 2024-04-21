@@ -24,6 +24,9 @@
 html {
   scroll-behavior: smooth;
 }
+html::-webkit-scrollbar{
+  display: none;
+}
 
 a {
   text-decoration: none;

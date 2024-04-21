@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
+  /* opacity: 0.5; */
 }
 .home .overlay {
   position: absolute;
@@ -64,12 +65,23 @@
   position: relative;
   font-size: 1.8rem;
 }
+.black{
+  color: black;
+}
 .home .homecontent .cardDiv {
   position: relative;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   background: var(--whiteColor);
   border-radius: 10px;
-  gap: 1rem;
+  /* gap: 1rem; */
+  flex-direction: column;
+}
+.flex_row{
+  flex-direction: row;
+  gap:1rem;
+  justify-content: space-evenly;
+  /* background-color: black; */
+  width: 100%;
 }
 .home .homecontent .cardDiv label {
   display: block;

@@ -139,6 +139,7 @@
 .footer .secContent .footerCard .footerSocials .icon {
   color: var(--blackColor);
   font-size: 20px;
+  margin-right: 10px;
 }
 .footer .secContent .footerCard .footerSocials .icon:hover {
   color: var(--PrimaryColor);
